@@ -1,31 +1,36 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>nanoFramework.Extensions.Stm32.GpioController</id>
-    <title>nanoFramework.Extensions.Stm32.GpioController</title>
+    <id>nanoFramework.Extensions.HandyExtensions</id>
+    <title>nanoFramework.Extensions.HandyExtensions</title>
     <version>1.0.0</version>
-    <authors>Eclo Solutions</authors>
-    <owners>Eclo Solutions</owners>
+    <authors>Dean Fuqua</authors>
+    <owners>Starbender Systems</owners>
     <description>
-      Extensions for Windows.Devices.Gpio.GpioController class enhacing support for STM32 MCUs in .NET nanoFramework.
+      Provides a set of class extensions and extended classes to help improve compatibility with existing C# code
     </description>
     <releaseNotes>
     </releaseNotes>
     <summary>
-      This is an extension for .NET nanoFramework enhacing support for Windows.Devices.Gpio.GpioController when using STM32 MCUs.
+      Provides a set of class extensions and extended classes to help improve compatibility with existing C# code
+      In the future, some of these extensions may become obsolete (and removed) if the equivalent code is implmented in mscorlib
     </summary>
-    <projectUrl>https://github.com/nanoframework/nf-Community-Contributions/extensions/stm32/gpiocontroller</projectUrl>
+    <projectUrl>https://github.com/nanoframework/nf-Community-Contributions/extensions/HandyExtensions</projectUrl>
     <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <licenseUrl>https://github.com/nanoframework/nf-Community-Contributions/blob/master/extensions/stm32/gpiocontroller/LICENSE</licenseUrl>
-    <copyright>Copyright 2018 Eclo Solutions</copyright>
+    <licenseUrl>https://github.com/nanoframework/nf-Community-Contributions/blob/master/extensions/HandyExtensions/LICENSE</licenseUrl>
+    <copyright>Copyright 2018 Dean Fuqua</copyright>
     <dependencies>
-  	<dependency id="nanoFramework.Windows.Devices.Gpio" version="*"/>
+  	<dependency id="nanoFramework.CoreLibrary" version="1.0.4"/>
     </dependencies>
     <references></references>
-    <tags>nanoFramework, nano Framework, NETNF, NETMF, Micro Framework, Gpio, STM32, .net </tags>
+    <tags>nanoFramework, nano Framework, NETNF, NETMF, Micro Framework, .net </tags>
   </metadata>
   <files>
-    <file src="content\Stm32.GpioController.Extensions.cs" target="content" />
+    <file src="content\DateTimeEx.cs" target="content" />
+    <file src="content\ExceptionExtensions.cs" target="content" />
+    <file src="content\StringExtensions.cs" target="content" />
+    <file src="content\TimeExtensions.cs" target="content" />
+    <file src="content\TimeSpanEx.cs" target="content" />
   </files>
 </package>

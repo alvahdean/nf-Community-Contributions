@@ -18,11 +18,11 @@
   </PropertyGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <ItemGroup>
-    <Compile Include="ExceptionExtensions.cs" />
-    <Compile Include="StringExtensions.cs" />
-    <Compile Include="TimeSpanEx.cs" />
-    <Compile Include="DateTimeEx.cs" />
-    <Compile Include="TimeExtensions.cs" />
+    <Compile Include="content\ExceptionExtensions.cs" />
+    <Compile Include="content\StringExtensions.cs" />
+    <Compile Include="content\TimeSpanEx.cs" />
+    <Compile Include="content\DateTimeEx.cs" />
+    <Compile Include="content\TimeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
